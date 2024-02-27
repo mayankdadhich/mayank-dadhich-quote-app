@@ -18,6 +18,16 @@ export default function Home(): JSX.Element {
       <main className={`${styles.main} ${inter.className}`}>
         <Header />
         <div className={styles.center}>
+        <Image
+            className={styles.logo}
+            src="/pngegg.png"
+            alt="quotes Logo"
+            width={300}
+            height={300}
+            priority
+          />
+        </div>
+        <div className={styles.center}>
           <h1>Quotes, Dialogues And Proverbs!</h1>
         </div>
       </main>
